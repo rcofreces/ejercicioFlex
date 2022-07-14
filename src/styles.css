@@ -1,0 +1,108 @@
+body {
+  font-family: sans-serif;
+}
+
+.bloque1 {
+  display: flex;
+  color: black;
+  border: solid 4px black;
+}
+
+.bloque2 {
+  display: flex;
+  color: black;
+  border: solid 4px black;
+}
+
+.bloque3 {
+  display: flex;
+  color: black;
+  border: solid 4px black;
+}
+
+.bloque4 {
+  display: flex;
+  background-color: rgb(0, 225, 255);
+  color: black;
+  border: solid 4px black;
+}
+
+.encabezado {
+  display: flex;
+  color: black;
+  background-color: grey;
+  border: solid 4px black;
+  order: 1;
+  justify-content: flex-start;
+}
+
+.menu1 {
+  color: white;
+  background-color: green;
+  border: solid 2px black;
+  order: 2;
+  justify-content: space-between;
+}
+
+.logo {
+  color: white;
+  background-color: darkblue;
+  border: solid 2px black;
+  order: 3;
+  align-self: flex-start;
+}
+
+.menu2 {
+  color: white;
+  background-color: darkred;
+  border: solid 2px black;
+  order: 4;
+}
+
+.izquierda {
+  color: white;
+  display: flex;
+  background-color: rgb(54, 54, 54);
+  border: solid 4px black;
+}
+
+.centro {
+  color: white;
+  display: flex;
+  background-color: rgb(13, 133, 127);
+  border: solid 4px black;
+}
+
+.derecha {
+  color: white;
+  display: flex;
+  background-color: orange;
+  border: solid 4px black;
+}
+
+.izquierda2 {
+  color: white;
+  display: flex;
+  background-color: darkgreen;
+  border: solid 4px black;
+}
+
+.derecha2 {
+  color: white;
+  display: flex;
+  background-color: orangered;
+  border: solid 4px black;
+}
+
+.pie {
+  display: flex;
+  color: black;
+
+  border: solid 4px black;
+}
+
+.elemento {
+  color: white;
+  background-color: blue;
+  border: solid 2px black;
+}
